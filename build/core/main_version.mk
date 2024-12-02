@@ -9,6 +9,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.spark.display.version=$(SPARK_DISPLAY_VERSION) \
     ro.spark.build.version=$(SPARK_BUILD_VERSION) \
     ro.spark.build.date=$(BUILD_DATE) \
+    ro.spark.type=$(SPARK_TYPE) \
     ro.spark.buildtype=$(SPARK_BUILD_TYPE) \
     ro.spark.fingerprint=$(ROM_FINGERPRINT) \
     ro.spark.version=$(SPARK_VERSION) \
